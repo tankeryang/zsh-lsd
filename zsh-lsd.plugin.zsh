@@ -6,7 +6,7 @@ if ! (( $+commands[lsd] )); then
     return
 fi
 
-ness_params="--group-directories-first --header --hyperlink=auto --date='+%a %Y-%m-%d %H:%M:%S'"
+ness_params="--group-directories-first --header --hyperlink=auto --date='+%a %Y-%m-%d %H:%M:%S '"
 # Create alias override commands using 'lsd'
 alias l="lsd -lah $ness_params"
 alias ls="lsd $ness_params"
